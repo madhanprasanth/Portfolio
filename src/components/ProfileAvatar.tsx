@@ -7,17 +7,17 @@ interface ProfileAvatarProps {
 }
 
 export default function ProfileAvatar({
-  size = 'lg',
+  // size = 'lg',
   className = '',
   showStatus = true,
 }: ProfileAvatarProps) {
-  const [imageError, setImageError] = useState(false)
+  const [imageError] = useState(false)
 
-  const sizeClasses = {
-    sm: 'w-12 h-12',
-    md: 'w-16 h-16 sm:w-20 sm:h-20',
-    lg: 'w-24 h-24 sm:w-32 sm:h-32',
-  }
+  // const sizeClasses = {
+  //   sm: 'w-12 h-12',
+  //   md: 'w-16 h-16 sm:w-20 sm:h-20',
+  //   lg: 'w-24 h-24 sm:w-32 sm:h-32',
+  // }
 
   return (
     <div className={`relative inline-block ${className}`}>
