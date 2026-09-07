@@ -22,31 +22,32 @@ export default function ProfileAvatar({
   return (
     <div className={`relative inline-block ${className}`}>
       {/* Outer Glow Halo */}
-      <div
+      {/* <div
         className="absolute -inset-1 rounded-full opacity-60 blur-md pointer-events-none transition-opacity duration-500 group-hover:opacity-100"
         style={{
           background: 'linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4)',
         }}
-      />
+      /> */}
 
       {/* Rotating / Gradient Border Ring */}
-      <div className="relative p-[2px] rounded-full bg-gradient-to-tr from-[#3b82f6] via-[#8b5cf6] to-[#06b6d4] shadow-[0_0_20px_rgba(139,92,246,0.3)]">
-        <div
+      <div className="relative p-[2px] rounded-full  from-[#3b82f6] via-[#8b5cf6] to-[#06b6d4] shadow-[0_0_20px_rgba(139,92,246,0.3)]">
+        {/* <div
           className={`${sizeClasses[size]} rounded-full overflow-hidden bg-[#0a0a0a] relative flex items-center justify-center`}
-        >
+        > */}
           {!imageError ? (
-            <img
-              src="/avatar.png"
-              alt="Madhanprasanth Palanisamy"
-              onError={() => setImageError(true)}
-              className="w-full h-full object-cover object-center"
-            />
+            // <img
+            //   src="/avatar.png"
+            //   alt="Madhanprasanth Palanisamy"
+            //   onError={() => setImageError(true)}
+            //   className="w-full h-full object-cover object-center"
+            // />
+            ""
           ) : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#12121e] to-[#0a0a14] text-white select-none font-black text-sm tracking-tighter text-gradient">
               MP
             </div>
           )}
-        </div>
+        {/* </div> */}
 
         {/* Live Status Indicator */}
         {showStatus && (

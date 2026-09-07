@@ -153,7 +153,7 @@ export default function About() {
                 <div className="flex items-center gap-3">
                   <ProfileAvatar size="sm" showStatus={false} />
                   <div>
-                    <p className="text-white text-xs font-semibold">Madhanprasanth P.</p>
+                    <p className="text-white text-xs font-semibold">Madhanprasanth P</p>
                     <span className="text-[11px] font-mono text-[#3b82f6]">Frontend Dev @ Kumaran Systems</span>
                   </div>
                 </div>
