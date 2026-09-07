@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowDown, ExternalLink, Mail, ArrowRight, Sparkles, Code2, Cpu } from 'lucide-react'
+import { ArrowDown, ExternalLink, ArrowRight, Sparkles, Code2 } from 'lucide-react'
 
 const ROLES = [
   'React.js & TypeScript Specialist',
